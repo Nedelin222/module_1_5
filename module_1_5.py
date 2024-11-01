@@ -1,7 +1,8 @@
 immutable_var = 1, 2, 3, 4 ,5, 'bingo', 'salo'
 print(immutable_var)
 #immutable_var[4] = 20
-# Выдает ошибку что не может поменять символ
+# Выдает ошибку что не может поменять символ 
+# ( Так как кортеж нельзя изменить, это неизменяемый тип данных) 
 # TypeError: 'tuple' object does not support item assignment
 mutable_list = ['Big', 'car', 'Banana', 'list' ]
 #mutable_list[0][2] = 2
